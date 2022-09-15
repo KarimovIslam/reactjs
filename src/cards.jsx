@@ -1,17 +1,16 @@
 import React from "react";
-import './stylefruits'
+import './fruitstyle.css'
 
 
-class cards extends React.Component{
+class Cards extends React.Component{
     render(){
         return(
             
             <div className="container">
-                <h1 className="title">List OF Fruits</h1>
-                <img className="img" src="" alt="photo" />
-                <h3 className="title2">Apple</h3>
+                <img className="img" src={this.props.src} alt="photo" />
+                <h3 className="title">{this.props?.title}</h3>
             </div>
         )
     }
 }
-export default cards;
+export default Cards;

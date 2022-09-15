@@ -5,4 +5,14 @@ background-color: aliceblue;
 .wrapper{
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+  width: 100vh;
+  margin: auto;
+  padding: 70px;
+}
+.headtitle{
+  position: absolute;
+  top: 0px;
+  left: 325px;
+  color: rgb(107, 91, 0);
 }
