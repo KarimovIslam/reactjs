@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    width: 200px;
+    height: 220px;
+    background-color: antiquewhite;
+    margin: 15px;
+    border-radius: 25px;
+
+}
+.title{
+    margin: auto;
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+.title2{
+    margin-top:auto;
+}
