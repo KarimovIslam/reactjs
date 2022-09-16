@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import State from './state.jsx'
 import './index.css';
-import Cards from './cards.jsx';
-import Fruit from './fruit.jsx'; 
-import './fruitstyle.css'
 
 
 
@@ -11,7 +9,7 @@ import './fruitstyle.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Fruit/>
+   <State/>
   </React.StrictMode>
 );
 
